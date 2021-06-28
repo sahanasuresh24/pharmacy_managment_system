@@ -1,0 +1,32 @@
+#text{
+ position : absolute;
+	  top : 10%;
+	  left: 20%;
+	  font-family : Curlz MT;
+		color : black;
+		font-weight : bold;
+		font-size : 130%;
+	  }
+#log{
+		position : absolute;
+		top : 30%;
+		left : 40%;
+		width : 40%;
+		height : 40%;
+		text-align : center;
+		color : white;
+		border-radius : 4%;
+	}
+	#logform{
+		position : absolute;
+		top : 30%;
+		left : 10%;
+		width : 80%;
+		height : 40%;
+		text-align : center;
+		font-family : Bradley Hand ITC;
+		font-weight : bold;
+		color : black;
+		font-size : 132%;
+	}
+	

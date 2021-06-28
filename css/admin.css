@@ -1,0 +1,106 @@
+#a{
+position : absolute;
+	  top : 13%;
+	  left : 80%
+}
+.button4 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	border-radius: 12px;
+}
+#text{
+      position : absolute;
+	  top : 10%;
+	  left: 10%;
+	  font-family : times new roman;
+		color : black;
+		font-weight : bold;
+		font-size : 100%;
+	  }
+#stock{
+		position : absolute;
+		top : 37%;
+		left : 8%;
+		width : 30%;
+		height : 40%;
+	}
+	#stocktext{
+      position : absolute;
+	  top : 54%;
+	  left: 9%;
+	  font-family : times new roman;
+		color : black;
+		font-weight : bold;
+		font-size : 110%;
+	  }
+	#medicine{
+		position : absolute;
+		top : 35%;
+		left : 23%;
+		width : 30%;
+		height : 40%;
+	}
+	#medicinetext{
+      position : absolute;
+	  top : 54%;
+	  left: 25.5%;
+	  font-family : times new roman;
+		color : black;
+		font-weight : bold;
+		font-size : 110%;
+	  }
+	#employee{
+		position : absolute;
+		top : 35%;
+		left : 38%;
+		width : 30%;
+		height : 40%;
+	}
+	#employeetext{
+      position : absolute;
+	  top : 54%;
+	  left: 39%;
+	  font-family : times new roman;
+		color : black;
+		font-weight : bold;
+		font-size : 110%;
+	  }
+	#customer{
+		position : absolute;
+		top : 35%;
+		left : 53%;
+		width : 30%;
+		height : 40%;
+	}
+	  #customertext{
+      position : absolute;
+	  top : 54%;
+	  left: 55%;
+	  font-family : times new roman;
+		color : black;
+		font-weight : bold;
+		font-size : 110%;
+	  }
+	#billing{
+		position : absolute;
+		top : 35%;
+		left : 68%;
+		width : 30%;
+		height : 40%;
+	}
+	#billingtext{
+      position : absolute;
+	  top : 54%;
+	  left: 69%;
+	  font-family : times new roman;
+		color : black;
+		font-weight : bold;
+		font-size : 110%;
+	  }

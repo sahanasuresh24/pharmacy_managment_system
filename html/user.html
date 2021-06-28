@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pharmacy management system</title>
+		<meta name = "viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,"/>
+		<link rel="shortcut icon" type="image/x-icon" href="images/login.jpg">
+		<link rel = "stylesheet" type = "text/css" href = "../css/u.css"/>
+		<style>
+		body {
+    background-image: url("../images/user.jpg");
+	height: 580px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+	input[type="submit"]{
+    border-radius: 12px;
+	font-size: 78%;
+	font-family : Times new roman;
+	font_weight : bold;
+}
+input[type="reset"]{
+    font-size: 78%;
+	font-family : Times new roman;
+	font_weight : bold;
+	border-radius : 12px;
+}
+	</style>
+	<script>
+function myFunction() {
+    alert("Wrong username or password");
+}
+</script>
+	</head>
+	<body onload ="myFunction()" >
+	<div id = "text">
+	<h1>WELCOME user!</h1>
+	</div>
+		<div id = "log">
+			<form  id = "logform" method="POST" action="../userphp/userlogin.php">
+				User Name	: &nbsp;&nbsp;<input type = "text" name="id" pattern="[A-Za-z0-9]{4,}" title="four or more characters and no special characters are allowed" placeholder="User name" required><br><br>
+				Password&nbsp;&nbsp;   : &nbsp;&nbsp;<input type="password" name="pass" placeholder="Password" required ><br><br>
+				<input type="submit" value="Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "reset" value = "Clear">
+			</form>
+		</div>
+	</body>
+</html>
